@@ -63,7 +63,7 @@ wget https://raw.githubusercontent.com/akamas/sprox/master/install-hetzner.sh -c
 * Connect via ssh/terminal to the new Proxmox system running on your server and run the following
 ## LVM to ZFS
 ````
-wget https://raw.githubusercontent.com/eakamas/sprox/master/lvm-2-zfs.sh -c -O lvm-2-zfs.sh  && chmod +x lvm-2-zfs.sh
+wget https://raw.githubusercontent.com/akamas/sprox/master/lvm-2-zfs.sh -c -O lvm-2-zfs.sh  && chmod +x lvm-2-zfs.sh
  ./lvm-2-zfs.sh && rm lvm-2-zfs.sh
 ````
 * Reboot
