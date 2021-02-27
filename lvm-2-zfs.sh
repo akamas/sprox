@@ -52,7 +52,7 @@ LVM_MOUNT_POINT="$1"
 
 if [ "$LVM_MOUNT_POINT" == "" ]; then
   # The default LVM mount which will be replaced with ZFS
-  LVM_MOUNT_POINT="/dev/mapper/pve-root && /dev/sdb1  "
+  LVM_MOUNT_POINT="/dev/mapper/pve-root"
 fi
 
 echo "+++++++++++++++++++++++++"
